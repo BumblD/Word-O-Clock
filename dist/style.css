@@ -1,0 +1,27 @@
+body {
+  background-color: #202020;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  margin: 0; /* Reset */
+  margin-top: 5vh;
+  padding: 0; /* Reset */
+}
+
+.clock {
+  background-color: #000;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  color: #101010;
+  font: 3vh/5vh 'Inconsolata', 'Courier', monospace;
+  text-align: center;
+  letter-spacing: 2.25vh;
+  line-height: 3.5vh;
+  padding: 3vh 2vh 3.3vh 4.3vh;
+}
+
+.always-on,
+.on {
+  color: #fff;
+  text-shadow: 0 0 7px rgba(255, 255, 255, 0.7);
+}
